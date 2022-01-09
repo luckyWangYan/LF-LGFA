@@ -2,7 +2,7 @@
 
 ![img](./pic/Network.jpg)
 
-This is the PyTorch implementation of "*LOCAL-GLOBAL FEATURE AGGREGATION FOR LIGHT FIELD IMAGE SUPER-RESOLUTION*". 
+This is the PyTorch implementation of "LOCAL-GLOBAL FEATURE AGGREGATION FOR LIGHT FIELD IMAGE SUPER-RESOLUTION". 
 
 ## Contributions:
 
@@ -40,7 +40,7 @@ Run `train.py` to perform network training. Note that, the training settings in 
 
 ### **Quantitative Results**
 
-![img](./pic/Quantitative Results.jpg)
+![img](./pic/Quantitative_Results.jpg)
 
 ### **Efficiency**
 
@@ -48,7 +48,7 @@ Run `train.py` to perform network training. Note that, the training settings in 
 
 ### **Visual Comparisons**
 
-![img](./pic/Visual Comparisons.jpg)
+![img](./pic/Visual_Comparisons.jpg)
 
 ## Acknowledgement
 
