@@ -1,0 +1,8 @@
+# ninja log v5
+0	3075	1627558952055007433	/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/build/temp.linux-x86_64-3.7/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/src/cpu/deform_cpu.o	b2910fb2d81afefa
+1	4505	1627558953490992862	/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/build/temp.linux-x86_64-3.7/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/src/cpu/deform_psroi_pooling_cpu.o	de689e38d6d8aaf9
+1	4685	1627558953670991034	/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/build/temp.linux-x86_64-3.7/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/src/cpu/modulated_deform_cpu.o	322f4788be89186e
+1	10002	1627558958982937123	/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/build/temp.linux-x86_64-3.7/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/src/cuda/modulated_deform_conv_cuda.o	b43bf7484f82b01c
+1	10267	1627558959250934404	/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/build/temp.linux-x86_64-3.7/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/src/cuda/deform_psroi_pooling_cuda.o	8fcb6b0fa20e6bfe
+1	10611	1627558959594930912	/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/build/temp.linux-x86_64-3.7/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/src/cuda/deform_conv_cuda.o	6687e62c539a8f45
+0	17684	1627558966666859138	/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/build/temp.linux-x86_64-3.7/home/wy/wangyan/workspace/LF/LF-DFnet-master/code/dcn/src/vision.o	bab09a33d002a332
