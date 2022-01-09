@@ -17,18 +17,18 @@ This is the Pytorch implementation of "Local-Global Feature Aggregation For Ligh
 
 ## Compile DCN
 
-The DCN part of our code is referred from [LF-DFnet](https://github.com/ZhengyuLiang24/LF-DFnet). 
+The DCN part of our code is referred to [LF-DFnet](https://github.com/ZhengyuLiang24/LF-DFnet). 
 
 - Cd to `code/dcn`.
 - For Windows users, run `cmd make.bat`. For Linux users, run bash `bash make.sh`. The scripts will build DCN automatically and create some folders. 
 
 ## Datasets
 
-- Experiments are performed on the EPFL, HCInew, HCIold, INRIA and STFgantry datasets. You can download our processed dataset via [Baidu Drive](https://pan.baidu.com/s/1okWHXUEbrAt7F3-689P_XA) (key:1234), and place them in the folder `./data/`. 
+- Experiments are performed on the EPFL, HCInew, HCIold, INRIA and STFgantry datasets. You can download our processed datasets via [Baidu Drive](https://pan.baidu.com/s/1okWHXUEbrAt7F3-689P_XA) (key:1234), and place them in the folder `./data/`. 
 
 ## Train
 
-- Run `train.py` to perform network training. Checkpoint will be saved in`./log/`.
+- Run `train.py` to perform network training. Checkpoints will be saved in`./log/`.
 
 ## Test
 
