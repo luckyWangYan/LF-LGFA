@@ -7,13 +7,13 @@ This is the Pytorch implementation of "Local-Global Feature Aggregation For Ligh
 ![img](./pic/Network.jpg)
 
 
-## Requirement:
+## Requirements:
 
 - Pytorch = 1.7.1
 - torchvision = 0.8.2
-- cuda = 11.0
+- CUDA = 11.0
 - python = 3.7
-- Matlab (For result image generation)
+- Matlab (For visual results generation)
 
 ## Compile DCN
 
@@ -22,15 +22,15 @@ This is the Pytorch implementation of "Local-Global Feature Aggregation For Ligh
 
 ## Datasets
 
-We used the EPFL, HCInew, HCIold, INRIA and STFgantry datasets.  We use Bicubic downsampling to generate low-resolution patches as the training and test datasets.  You can download our dataset via [Baidu Drive](https://pan.baidu.com/s/1okWHXUEbrAt7F3-689P_XA) (key:1234), and place the datasets to the folder `./data/`. 
+Experiments are performed on the EPFL, HCInew, HCIold, INRIA and STFgantry datasets. You can download our processed dataset via [Baidu Drive](https://pan.baidu.com/s/1okWHXUEbrAt7F3-689P_XA) (key:1234), and place them in the folder `./data/`. 
 
 ## Train
 
-Run `train.py` to perform network training. Note that, the training settings in `train.py` should match the generated training data. Checkpoint will be saved to `./log/`.
+- Run `train.py` to perform network training. Checkpoint will be saved to `./log/`.
 
 ## Test
 
-- Run `test.py` to perform network inference. The PSNR and SSIM values of each dataset will be printed on the screen.
+- Run `test.py` to perform network inference. 
 - Run `GenerateResultImages.m` to convert '.mat' files in `./Results/` to '.png' images to `./SRimages/`.
 
 ## Results
@@ -39,7 +39,7 @@ Run `train.py` to perform network training. Note that, the training settings in 
 
 ![img](./pic/Quantitative_Results.jpg)
 
-### **Efficiency**
+### **Computation Efficiency**
 
 ![img](./pic/Efficiency.jpg)
 
@@ -49,9 +49,9 @@ Run `train.py` to perform network training. Note that, the training settings in 
 
 ## Acknowledgement
 
-Our code is based on [LF-DFnet](https://github.com/ZhengyuLiang24/LF-DFnet). We thank the authors for sharing their codes.
+This code is built on [LF-DFnet](https://github.com/ZhengyuLiang24/LF-DFnet). We thank the authors for sharing their codes.
 
 ## Contact
 
-Any question regarding this work can be addressed to 3220200966@bit.edu.cn
+You can concat with me via wangyan@bit.edu.cn
 
